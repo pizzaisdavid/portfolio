@@ -115,19 +115,19 @@
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#pocketStatsModal">
+                <a href="#pocketStatsModal" class="portfolio-link" data-toggle="modal">
                     <img class="img-responsive portfolio-item thumbnail" src="./assets/thumbnails/pocket-stats.png" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="#" class="portfolio-link" data-toggle="modal">
                     <img class="img-responsive portfolio-item thumbnail" src="./assets/thumbnails/grade-aid.png" alt="">
                 </a>
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <a href="#">
+                <a href="#" class="portfolio-link" data-toggle="modal">
                     <img class="img-responsive portfolio-item thumbnail" src="./assets/thumbnails/draw.PNG" alt="">
                 </a>
             </div>
@@ -204,8 +204,6 @@
     <script src="footer.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
-
-
   <div class="portfolio-modal modal fade" id="tellMeTimerModal" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
       <div class="close-modal" data-dismiss="modal">
@@ -231,28 +229,68 @@
                 <a href="https://play.google.com/store/apps/details?id=com.pizzaisdavid.david.tellmetimer&hl=en">Available on the Google Play Store</a>
               </p>
               <br />
-              <div float="left">
-                <h6>Technoligies Used</h6>
-                <ul class="list-inline item-details">
-                  <li>
-                    Java
-                  </li>
-                  <li>
-                    Date
-                  </li>
-                  <li>
-                    Service
-                  </li>
-                </ul>
-
-                <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-              </div>
+              <br />
+              <br />
+              <br />
+              <h6>Technoligies Used</h6>
+              <ul class="list-inline item-details">
+                <li>
+                  Java
+                </li>
+                <li>
+                  Android Studio
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <div class="portfolio-modal modal fade" id="pocketStatsModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+              <h2>Pocket Stats</h2>
+              <hr class="star-primary">
+              <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+              <p>
+                Connect to <a href="https://getpocket.com">Pocket <i>Read it Later</i></a> with OAuth 2.0, to view the total number of articles saved.
+              </p>
+              <br />
+              <br />
+              <br />
+              <br />
+              <h6>Technoligies Used</h6>
+              <ul class="list-inline item-details">
+                <li>
+                  Java
+                </li>
+                <li>
+                  Android Studio
+                </li>
+                <li>
+                  OAuth 2.0
+                </li>
+              </ul>
+              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </body>
 
 </html>
