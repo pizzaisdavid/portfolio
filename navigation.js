@@ -13,10 +13,13 @@ document.getElementById("navigation").innerHTML ='\
 	<!-- Collect the nav links, forms, and other content for toggling -->\
 	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">\
 		<ul class="nav navbar-nav">\
-			<li>\
+			<li id="projectsButton">\
+				<a href="#">Projects</a>\
+			</li>\
+			<li id="aboutButton">\
 				<a href="#">About</a>\
 			</li>\
-			<li>\
+			<li id="contactButton">\
 				<a href="#">Contact</a>\
 			</li>\
 		</ul>\
