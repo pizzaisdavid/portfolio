@@ -8,12 +8,6 @@ $(document).ready(function () {
   });
 
 
-  $("#aboutButton").click(function () {
-    $('html,body').animate({
-      scrollTop: $("#about").offset().top
-    },
-        'slow');
-  });
 
 
   $("#contactButton").click(function () {
