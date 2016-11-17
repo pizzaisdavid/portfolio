@@ -9,14 +9,6 @@
   });
 
 
-  $("#aboutButton").click(function () {
-    $('html,body').animate({
-      scrollTop: $("#about").offset().top
-    },
-        'slow');
-  });
-
-
 
   $("#contactButton").click(function () {
     $('html,body').animate({
