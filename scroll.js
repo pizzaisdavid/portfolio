@@ -1,5 +1,6 @@
-﻿
-$(document).ready(function () {
+﻿$(document).ready(function () {
+
+
   $("#projectsButton").click(function () {
     $('html,body').animate({
       scrollTop: $("#projects").offset().top
@@ -7,6 +8,13 @@ $(document).ready(function () {
         'slow');
   });
 
+
+  $("#aboutButton").click(function () {
+    $('html,body').animate({
+      scrollTop: $("#about").offset().top
+    },
+        'slow');
+  });
 
 
 
@@ -16,5 +24,4 @@ $(document).ready(function () {
     },
         'slow');
   });
-
 });
